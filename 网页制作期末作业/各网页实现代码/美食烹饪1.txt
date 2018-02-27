@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>美食烹饪</title>
+<style type="text/css">
+body{
+     margin:0;
+     padding:0;
+}
+#container{
+     width:1300px;
+     height:800px;
+     background-color:rgba(249, 231, 199, 1);
+     padding-top:50px;
+}
+#content{
+    width:1100px;
+    height:750px;
+    margin-left:100px;
+    position:relative;
+    padding:10px;
+    background-color:#EFFFD7;
+    color:#FF3300;
+}
+h1,h3{
+     font-weight:bold;
+     color:#FF3399;
+     text-align:center;
+}
+#box1{
+     width:540px;
+     height:580px;
+     float:left;
+     background-color:#FFCCCC;
+     padding:3px;
+}
+#box2{
+     width:540px;
+     height:580px;
+     float:right;
+     background-color:#CCCCFF;
+     padding:3px;
+}
+#box11{
+      width:210px;
+      height:240px;
+      float:left;
+}
+#box12{
+      width:300px;
+      height:250px;
+      float:right;
+      margin-top:10px;
+}
+#box13{
+      width:500px;
+      height:200px;
+      margin-top:280px;
+      font-size:120%;
+}
+#box3{
+      width:300px;
+      height:30px;
+      float:right;
+}
+#box0{
+      width:150px;
+      height:50px;
+      float:left;
+}
+#title{
+       height:50px;
+       border-bottom:5px solid #FF9999;
+}
+#title-son{
+         width:200px;
+         font-size:140%;
+         color:#FF6633;
+         margin-top:15px;
+         margin-left:30px;
+}
+#box3,#box0 a{
+  color:#CC0099;
+}
+</style>
+<body>
+ <div id="container">
+  <div id="content">
+   <h1>美食烹饪<h1>
+   <h3><i>————如果你不知道做什么，那就做饭</i></h3>
+   <div id="box1">
+    <div id="title"><div id="title-son"><img width="15px" height="20px" src="images/more_too.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;成都烤猪蹄</div></div>
+    <div id="box11"><br><p>所需原料：<br><br>1.料酒&nbsp;&nbsp;&nbsp;&nbsp;2勺2.老抽&nbsp;&nbsp;&nbsp;&nbsp;1勺<br><br>3.盐&nbsp;&nbsp;&nbsp;&nbsp;2勺4.生抽&nbsp;&nbsp;&nbsp;&nbsp;2勺<br><br>5.冰糖&nbsp;&nbsp;&nbsp;&nbsp;1块6.八角&nbsp;&nbsp;&nbsp;&nbsp;1个<br><br>7.桂皮&nbsp;&nbsp;&nbsp;&nbsp;1块8.孜然&nbsp;&nbsp;&nbsp;&nbsp;3克<br><br>9.生姜&nbsp;&nbsp;&nbsp;&nbsp;5片</p></div>
+    <div id="box12"><img width="300px" height="250px" src="images/猪蹄.png"/></div>
+    <div id="box13">1. 猪蹄在凉水中煮开几分钟后捞出洗净<br>2. 猪蹄放锅中，放葱姜、料酒去腥<br>3. 放八角、桂皮<br>4. 放生抽和老抽<br>5. 放冰糖，再放足够的开水大火煮开后改小火<br>6. 等猪蹄酥烂时放盐，再煮10分钟<br>7. 取出吸干水分<br>8. 空气炸锅180度预热5分钟后，放入猪蹄烤10分钟<br>9. 刷蜂蜜和煮猪蹄的卤汁调成的汁水，再烤5分钟左右，取出撒上孜然
+    </div>
+   </div>
+   <div id="box2">
+    <div id="title"><div id="title-son"><img width="15px" height="20px" src="images/more_too.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;湖南麻辣小龙虾</div></div>
+    <div id="box11"><p>所需原料：<br><br>主料：小龙虾&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2500克<br><br>1.油&nbsp;&nbsp;&nbsp;&nbsp;1勺2.花椒&nbsp;&nbsp;&nbsp;&nbsp;1勺<br><br>3.盐&nbsp;&nbsp;&nbsp;&nbsp;1勺4.啤酒&nbsp;&nbsp;&nbsp;&nbsp;2瓶<br><br>5.小葱&nbsp;&nbsp;&nbsp;&nbsp;适量6.八角&nbsp;&nbsp;&nbsp;&nbsp;4个<br><br>7.干辣椒&nbsp;&nbsp;&nbsp;&nbsp;8个8.生姜&nbsp;&nbsp;&nbsp;&nbsp;10克<br><br>9.大蒜头&nbsp;&nbsp;&nbsp;&nbsp;1个</p></div>
+    <div id="box12"><img width="300px" height="250px" src="images/麻辣小龙虾.png"/></div>
+    <div id="box13">1.先把小龙虾尾翅中间一片拉出抽出虾肠<br>2.再反复清洗至水清撤不浑浊 <br>3.再加入清水能浸没龙虾加入盐静养15分钟后洗净捞起<br>4. 准备所有调料（小葱葱白和葱叶分开切）<br>5.. 热锅倒入一勺油，温油倒入花椒<br>6. 再把香油豆瓣酱和郫县豆瓣酱加入炒出红油<br>7. 加入姜蒜，葱白，八角和干辣椒炒出香味<br>8.2瓶啤酒刚好能浸没龙虾<br>9. 盖上大火煮开后转中小火煮熟透之后打开加入葱花后熄火出锅
+    </div>
+   </div>
+   <div id="box0"><h3><a href="美食烹饪2.html">下一页</a></h3></div>
+   <div id="box3"><h3><a href="留言板.html">点击进入留言板</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="index.html">点击进入首页</a></h3></div>
+  </div>
+ </div>
+</body>
+</html>

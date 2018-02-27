@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>HUANGYUAN</title>
+<style type="text/css">
+#header{
+        width:100%;
+        height:250px;
+        font-size:150%;
+        font-weight:bold;
+        color:#bebebe;
+}
+#nav{
+     margin:0;
+     height:100px;
+     padding:0;
+}
+div#nav ul{
+           list-style-type:none;
+           margin:0;
+           padding:4px;
+}
+div#nav li{
+           float:left;
+           padding-left:;
+}
+div#nav li a{
+                           display:block;
+                           font-weight:bold;
+                           font-size:120%;
+                           color:purple;
+                           background-color:#bebebe;
+                           text-align:center;
+                           text-decoration:none;
+                           width:160px;
+                           line-height:100px;
+}
+div#nav li a:hover{
+                    height:100px;
+                    background-color:pink;
+} 
+#pic{
+     height:500px;
+}
+#parent1{
+        position:relative;
+        width:100%;
+        border-top:10px solid pink;
+}
+#parent3{
+        position:relative;         
+}
+#parent2{
+        position:relative;         
+}
+#parent4{
+        position:relative;         
+}     
+#child1{
+       position:absolute;
+       width:900px;
+       height:100px;
+       font-size:250%;
+       font-weight:bold;
+       color:#bebebe;
+       left:100px;
+       top:140px;            
+}
+#child2{
+        position:absolute;
+        color:purple;
+        width:200px;
+        height:60px;
+        right:10px;
+        top:3px;
+        font-size:60%;
+        line-height:25px;
+}
+#child3{
+       position:absolute;
+       width:260px;
+       right:80px;
+       top:150px;
+       color:purple;
+}
+#child4{
+        position:absolute;
+        width:100px;
+        font-size:80%;
+        right:10px;
+        top:220px;
+        color:purple;
+}
+div#parent4 a{
+              color:#FF0066;
+}
+#footer{
+        width:100%;
+        height:50px;
+}
+</style>
+</head>
+<body>
+  <div id="header">
+      <div id="parent1">
+         <div id="child1">The  delicious  food  in  my  daily  life</div>
+      </div>
+      <div id="parent4">
+         <div id="child4"><a href="登录界面.html">登录</a>||<a href="注册界面.html">注册</a></div>
+      </div>
+      <div id="parent2">
+         <div id="child2"><td height="99"><marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="stop(this)" onmouseout="start(this)"><h2 align="center">本站最近消息</h2>欢迎各位好友来访，本网站必须是合法用户才能访问，您是否已经注册了呢？如果您已经注册，在本站网站您可以看到很多关于本人的基本资料和一些个人信息，如果您还没有注册，请您能成为本站合法用户，么么哒~</marquee></td></div>
+      </div>
+      <img width="1330" height="250" src="images\10ca9748d7b52efc566138ac41950e82.jpg"/>
+   </div>
+  <div id="nav">
+    <ul>
+       <li><a href="#">个人首页</a></li>
+       <li><a href="个人资料界面.html">个人资料</a></li>
+       <li><a href="日志界面.html">美食日记</a></li>
+       <li><a href="美食相册1.html">美食相册</a></li>
+       <li><a href="美食烹饪1.html">美食烹饪</a></li>
+       <li><a href="美食频道.html">美食频道</a></li>
+       <li><a href="留言板.html">留言板</a></li>
+    </ul>
+  </div>
+  <div id="pic">
+     <div id="parent3">
+        <div id="child3"><i>幸福是当你品尝一道美食时的满足感,<br><br>美食就在身边，让我们用味蕾去捕捉<br><br>吧！</i></div>
+     </div>
+     <img width="1330px" height="500px" src="images\图片1.png"/>
+  </div>
+</body>
+</html>

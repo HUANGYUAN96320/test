@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>留言板</title>
+<style type="text/css">
+div{
+    border:1px solid white;
+}
+body{
+    margin:0;
+    padding:0;
+}
+#container{
+         width:1300px;
+         height:1200px;
+         position:relative;
+         background-color:#FFD9EC;
+}
+#content1{
+         position:absolute;
+         width:250px;
+         height:450px;
+         left:130px;
+         top:60px;
+         background-color:#ADADAD;
+         border:2px solid white;
+         padding:5px;
+}
+#content1-son{
+             border:2px solid white;
+             font-size:180%;
+             font-weight:bold;
+             color:white;
+             text-align:center;
+}
+#content2{
+         position:absolute;
+         width:700px;
+         height:1090px;
+         left:400px;
+         top:60px;
+         background-color:#BEBEBE;
+         border:2px solid white;
+}
+#box1{
+     width:680px;
+     height:500px;
+     padding:10px;
+}
+#box2{
+     width:700px;
+     height:400px;
+}
+h2,h3{
+  color:white;
+  text-align:center;
+}
+p{
+  color:white;
+  font-size:230%;
+  font-weight:bold;
+  text-align:center;
+}
+#box3{
+      width:150px;
+      height:50px;
+      margin-left:550px;
+}
+#box3 a{
+  color:#FF60AF;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div id="container">
+ <div id="content1">
+ <br>
+  <div id="content1-son">CONTACT<br>SAY HELLO</div>
+ <br><br>
+  <img width="250px" height="300px" src="images/thB0RWZ5OL.jpg"/>
+ </div>
+ <div id="content2">
+  <br><br>
+  <h2>——留下你的足迹</h2>
+  <div id="box1">
+   <h3><i>一串真挚的祝福，一个不平凡的心意，乘着爱的路车，<br><br>送进你心里献上我无限的祝福之意，不论何时何地，我都愿意<br><br>让你知道，我深深地为你祝福</i><h4>
+   <br>
+   <img width="680px" height="300px" src="images/6b539fc46b27328b160911e77ef1530f.jpg"/>
+  </div>
+  <div id="box2">
+   <form method="post" action="save.php">
+    <lable><p>I want to say</p></lable>
+    <textarea rows="15" cols="80">请在此输入</textarea><br><br>
+    <input width="50px" height="50px" type="submit" value="留言" name="one"/>
+    <input width="100px" height="100px" type="reset" value="返回" name="one"/>
+   </form>
+  </div>
+  <div id="box3"><h3><a href="index.html">点击进入首页</a></h3></div>
+ </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>个人资料</title>
+<style type="text/css">
+div#container{
+    border:1px solid black;
+    width:1300px;
+    height:700px;
+    position:relative;
+}
+#box{
+   width:700px;
+   height:550px;
+   left:50px;
+   position:absolute;
+   top:60px;
+   padding:10px;
+   border:2px solid #FF99CC;
+}
+#box1{
+      float:left;
+      width:200px;
+      height:480px;
+}
+#box2{
+      float:right;
+      width:450px;
+      height:480px;
+}
+#box3{
+      width:300px;
+      height:70px;
+      margin-left:350px;
+      margin-top:520px;
+      border:0px;
+}
+#box3 a{
+  color:#CC0099;
+} 
+p{
+  color:#FF3366;
+  font-weight:bold;
+  font-size:110%;
+}
+a{
+  color:#FF3399;
+}
+h1{
+   color:#FF3399;
+}
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="box">
+     <div id="box1">
+       <img width="180px" height="220px" src="images\3307f8e2-bfe8-4095-be7e-dc81b5492aaa.jpg"/>
+     </div>
+     <div id="box2">
+       <h1 color=pink align="center">个人资料</h1>
+       <p>姓名：黄源</p>
+       <p>出生年月日：1996.11.22</p>
+       <p>星座：金牛座</p>
+       <p>爱好：吃、唱歌、照相</p>
+       <p>就读大学：成都信息工程大学</p>
+       <p>出生地：四川南充</p>
+       <p>邮箱：<a href="#">654760728@qq.com</a></p>
+       <p>所读专业：网络工程</p>
+       <p>电话：13696225738</p>
+       <p>人生格言：做一个明媚的女子，不倾城，不倾国，以优雅的姿态去摸爬滚打~</p>
+     </div>
+    <div id="box3"><h3><a href="留言板.html">点击进入留言板</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="index.html">点击进入首页</a></h3></div>
+  </div>
+  <img width="1300px" height="700px" src="images\banner01_dgo5.jpg"/>
+</div>
+</body>
+</html>
